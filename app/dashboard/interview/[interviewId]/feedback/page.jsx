@@ -13,7 +13,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { useMemo } from "react";
-
+// use memo used for rating
 const Feedback = ({ params }) => {
   const router = useRouter();
   const [feedbackList, setFeedbackList] = useState([]);
